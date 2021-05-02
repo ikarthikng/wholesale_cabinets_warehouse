@@ -1,0 +1,17 @@
+{
+  "name": "cabinetswarehouse",
+  "version": "1.0.0",
+  "description": "Test project for cabinets warehouse",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js -e js,hbs"
+  },
+  "author": "Karthik Gangadharaiah",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "nodemon": "^2.0.7"
+  }
+}
